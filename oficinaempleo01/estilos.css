@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedorIndex{
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background: #3DB2FF;
+    border-radius: 5%;
+    box-shadow: 5px 5px 6px grey;
+
+}
+
+body{
+    background: #F4F9F9;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+fieldset{
+    width: 900px;
+    padding: 2%;
+}
+
+/*formulario.html*/
+
+header{
+    position: absolute;
+    z-index: 100;
+    height: 90px;
+    width: 100%;
+    background-color: #3DB2FF;
+    box-shadow: 0px 0px 15px black;
+}
+
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.upperTittle{
+    position: absolute;
+    left: 100px;
+    top: 11px;
+    color: #F4F9F9;
+}
+.tittleText{
+    position: absolute;
+    width: 685px;
+    height: 56px;
+    left: 95px;
+    top: 29px;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F4F9F9;
+
+}
+.cerrarSesion{
+    position: absolute;
+    width: 106px;
+    height: 30px;
+    right: 25px;
+    top: 50px;
+    border: none;
+    background: #F4F9F9;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.cerrarSesion:hover{
+    border: solid 1px #F4F9F9;
+    background-color: #3DB2FF;
+
+    color: #F4F9F9;
+}
+.session{
+    position: absolute;
+    left: 85.5%;
+    top: 52px;
+    font-weight: normal;
+    color: #F4F9F9;
+    
+}
+
+/*index.php*/
+
+.iniciarsesion{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 60px;
+    top: 5%;
+    border-bottom: solid #F4F9F9;
+
+    font-size: 48px;
+    line-height: 56px;
+    color: #F4F9F9;
+}
+.user{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 50px;
+    margin-top: 15%;
+    background: #F4F9F9;
+    border:none;
+    font-size: 18px;
+    line-height: 42px;
+    border-radius: 15px;
+
+
+}
+
+.password{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: #F4F9F9;
+    border:none;
+    border-radius: 15px;
+
+    font-size: 18px;
+    line-height: 42px; 
+}
+
+.ingresar{
+    width: 164px;
+    height: 50px;
+    background: #F4F9F9;
+    border: none;
+    margin-top: 5%;
+    border-radius: 15px;
+
+    font-size: 18px;
+    line-height: 33px;
+
+
+}
+.contenedorForm{
+    position: absolute;
+    top: 110px;
+    left: 1%;
+
+}
+.botonSubir{
+    width: 100px;
+    height: 30px;
+}
+
+/*inicio.php*/
+.contenedorInicio{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.botonInicio{
+    margin-top: 10px;
+    width: 900px;
+    height: 65px;
+    border-radius: 5px;
+    border: solid 1px #F4F9F9;
+    background-color: #3DB2FF;
+    margin-left: 10px;
+
+    color: #F4F9F9;
+
+    font-size: 22;
+}
+
+.botonInicio:hover{
+    color:black;
+    background-color: #F4F9F9;
+    border: 1px solid black;
+
+}
+
+.busqueda{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e8f0f2;
+    border-radius: 5px;
+    width: 900px;
+    height: 65px;
+}
+
+.buscarInicio{
+    background-color: #e8f0f2;
+    border: transparent;
+    font-size: 15px;
+    width: 700px;
+    height: 65px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.botonBusqueda{
+    border: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    width: 200px;
+    height: 65px;
+    color: #cdf6ff;
+    background-color: #39a2da;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: right;
+     
+}
+.botonBusqueda:hover{
+    color:black;
+    background-color: #F4F9F9;
+    border: 1px solid black;
+}
+
+/*buscar.php*/
+.barraFiltros{
+    font-size: 1vw;
+    color: #F4F9F9;
+    padding-top:20px;
+    padding-left: 15px;
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    height: 65px;
+    background-color: #39a2da;
+}
+.selectFiltro{
+    width: 8vw;
+    height: 2vw;
+    margin-left: 8px;
+    border: none;
+    background-color: #F4F9F9;
+
+}
+.selectFiltro:active{
+    color: #F4F9F9;
+    background-color: #39a2da;
+}
+.buscarLista{
+    position: absolute;
+    width: 100%;
+    top: 180px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+table,tr:nth-child(even){
+    background-color: #f2f2f2;
+    border: #ddd;
+}
+table,td,th{
+    padding: 10px;
+}
+table,tr{
+    background-color: #ddd;
+}
+.tr1{
+    color: #F4F9F9;
+    background-color: #39a2da;
+}
